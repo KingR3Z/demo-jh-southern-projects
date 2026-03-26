@@ -30,8 +30,8 @@ export const client = {
   twitter: "",
 
   // Reviews
-  googleRating: "5.0",
-  reviewCount: "0",
+  googleRating: "5",
+  reviewCount: "7",
 
   // Services
   services: [
@@ -79,9 +79,13 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Happy Customer", rating: 5, text: "Excellent work, very professional team. Would highly recommend to anyone looking for quality landscaping.", date: "2025" },
-    { name: "Satisfied Client", rating: 5, text: "Transformed our garden completely. Great communication throughout the project.", date: "2025" },
-    { name: "Local Resident", rating: 5, text: "Reliable, punctual and the finished result exceeded our expectations.", date: "2025" },
+    { name: "Kai Mears", rating: 5, text: "Great experience from start to finish. Responding to my initial enquiry very promptly. Arranged a time for Josh to visit to quote for the work in my garden and he provided some great ideas. Lovely level finish to the patio area and good quality finis", date: "2 months ago" },
+    { name: "joe moody", rating: 5, text: "Highly recommended, professional service with brilliant communication throughout. Made a change for someone to show passion in what they do, with a fantastic attention to detail. ", date: "2 months ago" },
+    { name: "stuart seymour", rating: 5, text: "Great company, very good at what they do. Really happy with the work they have carried out in our garden. Would definitely recommend. Great price too. ", date: "2 months ago" },
+    { name: "Megan", rating: 5, text: "Fantastic team. Friendly and we felt very comfortable. So pleased with my garden. Highly recommend. ", date: "2 months ago" },
+    { name: "Jamie Hunt", rating: 5, text: "Josh and Jamie did a great job installing an office room from start to finish - from laying the concrete base, to constructing , including sorting electrics and digging a channel for cabling (navigating some tricky block paving). Their …  ", date: "2 months ago" },
+    { name: "james mcguire", rating: 5, text: "New garden room and patio installed. Fantastic from start to finish highly recommend! ", date: "2 months ago" },
+    { name: "Kieran Kent", rating: 5, text: "Great bunch went above and beyond to get the job done in time for when I asked would totally recommend ! ", date: "2 months ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
